@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>layout ex</title>
+        <meta name="viewport" content="width-device-width,initial-scale=1">
+        <style>
+            header{ 
+                background-color: aqua;
+                text-align: center;
+                padding: 30px;
+                font-size: 20px;
+            }
+            nav{
+                background-color: rgb(196, 183, 209);
+                float: left;
+                padding: 20px;
+                height: 300%;
+                width: 20%;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 0%;
+            }
+            article{
+                float: left;
+                padding: 20px;
+                background-color: cadetblue;
+                height: 300px;
+                width: 20%;
+            }
+            section::after{
+                content: "";
+                display: table;
+                clear:both;
+
+            }
+            footer{
+                background-color: chocolate;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <header ><h1>UX FACTORY</h1></header>
+        
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Phone no</a></li>
+                    <li><a href="">signin</a></li>
+                </ul>
+            </nav>
+        
+        <article>
+            <p>u factory paragraph</p>
+            <a href="www.uxfactory.in" target="_blank">Uxfactory</a>
+            <p>n nula. Nulla suscipit sagitis sodales. Etiam laoreet ante in purus laoreet id malesuada dui preti
+                n nula. Nulla suscipit sagitis sodales. Etiam laoreet ante in purus laoreet id malesuada dui pretium. 
+               n nula. Nulla suscipit sagitis sodales. Etiam laoreet ante in purus laoreet id malesuada dui pretium. 
+            </p>
+            <p>n nula. Nulla suscipit sagitis sodales. Etiam laoreet ante in purus laoreet id malesuada dui preti
+                n nula. Nulla suscipit sagitis sodales. Etiam laoreet ante in purus laoreet id malesuada dui pretium. 
+               n nula. Nulla suscipit sagitis sodales. Etiam laoreet ante in purus laoreet id malesuada dui pretium. 
+            </p>
+        </article>
+    </section>
+    <footer>
+        Footer
+    </footer>
+    </body>
+</html>
