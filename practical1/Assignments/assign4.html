@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pizza shop</title>
+    </head>
+    <body>
+        <h1>Pizza Shop 2.0</h1>
+        <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><abel for="shopping">Pizza Shopping</abel></td>
+                <td><input type="radio" id="supreme" name="shopping" value="supreme">
+                    <label for="supreme">supreme</label><br>
+                     <input type="radio" id="veg" name="shopping" value="veg">
+                     <label for="veg">vegitarian</label><br>
+                     <input type="radio" id="hawa" name="shopping" value="hawalian">
+                     <label for="hawa" >Hawalian</label>
+                </td>
+             </tr>
+             <tr>
+                 <td><label for="sauces">Pizza Sauces</label></td>
+                 <td><select id="sauces" >
+                     <option value="tamoto" selected>Tamoto</option>
+                     <option value="potato">Potato</option>
+                     <option value="chilli">chilli</option>
+                 </select></td>
+                </tr>
+                <tr>
+                    <td><label for="chrges">Extra Charges</label></td>
+                    <td>
+                        <input type="checkbox" id="charge" name="extracheese" value="cheese">
+                        <label for="charge">Extra Cheese</label><br>
+                        <input type="checkbox" id="charge" name="cultenfree" value="gulten">
+                        <label for="charge" >Gulten free base</label>
+                    </td>
+                </tr>
+                <tr><td><label for="instruct">Delivery instructions:</label><br>
+                    <textarea id="instruct" rows="6" cols="32"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit order"></td>
+                </tr>
+        </table>
+    </body>
+</html>
