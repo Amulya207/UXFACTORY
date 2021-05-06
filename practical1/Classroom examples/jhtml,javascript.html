@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java script</title>
+        <script>
+            function myfunction()
+            {
+                document.getElementById("script1").innerHTML="Hello Javascript";
+                document.getElementById("script1").style.color="black";
+                document.getElementById("script1").style.backgroundColor="hotpink";
+                document.getElementById("img1").src="img/img1"; 
+                document.getElementsByClassName("drink")[0].innerHTML="Coffe";
+            }
+        </script>
+    </head>
+    <body>
+        <p id="script1">javascript introduction</p>
+        <img id="img1" height="200" width="300" src="../images/animal.jpg" alt="animal image">
+        <img id="img2" height="300" width="300" src="../images/flower.jpg" alt="flower image">
+        <button type="button" onclick="myfunction()">Click Me</button>
+        <nav>
+            <ul>
+                <li class="drink">milk</li>
+                <li class="drink">tea</li>
+            </ul>
+        </nav>
+    </body>
+</html>
